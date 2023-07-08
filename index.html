@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boat Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav>
+    <div id="menu"><i class="fa-solid fa-bars"></i></div>
+    <span>
+      <img id="logo" src="./assets/boat-logo-300x300.png" alt="" />
+      <ul class="primary-links">
+        <li>Categories <i class="fa-solid fa-chevron-down"></i></li>
+        <li>Daily Deals</li>
+        <li>Gift With Boat</li>
+        <li>More<i class="fa-solid fa-chevron-down"></i></li>
+      </ul>
+    </span>
+    <div class="search">
+      <p><i class="fa-solid fa-magnifying-glass"></i><input type="text" placeholder="Search Smartphone"></p>
+    </div>
+    <ul class="secondary-links">
+      <li><i class="fa-regular fa-user"></i></i></li>
+      <li><i class="fa-solid fa-bag-shopping"></i></li>
+    </ul>
+    <ul id="responsive-menu">
+      <!-- <li><i class="fa-regular fa-user"></i></li> -->
+      <li><i class="fa-solid fa-bag-shopping"></i></li>
+    </ul>
+  </nav>
+  <Div class="box-a">
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="./assets/slider/Nirvana_525_ANC_Desktop_1_1440x.webp" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="./assets/slider/1.webp" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="./assets/slider/2.webp" style="width:100%">
+        <div class="text"></div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="./assets/slider/3.webp" style="width:100%">
+        <div class="text"></div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="./assets/slider/4.webp" style="width:100%">
+        <div class="text"></div>
+      </div>
+    </div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    <br>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </div>
+  <div class="container-2">
+    <div class="text-1">
+      <p>Explore</p>
+      <h1>Bestseller</h1>
+    </div>
+    <div class="box-b">
+      <div class="box-1">
+        <video autoplay play loop muted src="./Explore BestSeller/@1.mp4" \></video>
+      </div>
+      <div class="box-1">
+        <video autoplay play loop muted src="./Explore BestSeller/@2.mp4" \></video>
+      </div>
+      <div class="box-1">
+        <video autoplay play loop muted src="./Explore BestSeller/@3.mp4" \></video>
+      </div>
+      <div class="box-1">
+        <video autoplay play loop muted src="./Explore BestSeller/@4.mp4" \></video>
+      </div>
+      <div class="box-1">
+        <video autoplay play loop muted src="./Explore BestSeller/@5.mp4" \></video>
+      </div>
+    </div>
+
+    <div class="text-2">
+      <div class="text-3">
+        <p>Daily</p>
+        <h2>Deals<h2>
+      </div>
+      <img src="./timer-background_1600x.webp" alt="">
+      <div class="text-4">
+        <h3>The Summer</h3>
+        <h4>Sale 60% </h4>
+        <h5>Off is here</h5>
+      </div>
+    </div>
+
+    <div class="box-c">
+      <div class="box-2">
+        <img src="./assets/6.webp" alt="">
+        <p><i class="fa-solid fa-star"></i>4.9</p>
+        <h1>Airpods 141 pro</h1>
+        <div class="text-5">
+          <h1>₹1,599</h1>
+          <p2><s>₹2990</s></p2>
+          <p3>47% off</p3>
+          <button><a href="#">Add To Cart</button></a>
+        </div>
+      </div>
+      <div class="box-2">
+        <img src="./assets/7.webp" alt="">
+        <p><i class="fa-solid fa-star"></i>4.8</p>
+        <h1>Airpods 131</h1>
+        <div class="text-5">
+          <h1>₹1,099</h1>
+          <p2><s>₹2990</s></p2>
+          <p3>63% off</p3>
+          <button><a href="#">Add To Cart</button></a>
+        </div>
+      </div>
+      <div class="box-2">
+        <img src="./assets/8.webp" alt="">
+        <p><i class="fa-solid fa-star"></i>4.7</p>
+        <h1>Storm Call</h1>
+        <div class="text-5">
+          <h1>₹1,799</h1>
+          <p2><s>₹7990</s></p2>
+          <p3>77% off</p3>
+          <button><a href="#">Add To Cart</button></a>
+        </div>
+      </div>
+      <div class="box-2">
+        <img src="./assets/9.webp" alt="">
+        <p><i class="fa-solid fa-star"></i>4.8</p>
+        <h1>Rockerz 235 v2</h1>
+        <div class="text-5">
+          <h1>₹899</h1>
+          <p2><s>₹2990</s></p2>
+          <p3>70% off</p3>
+          <button><a href="#">Add To Cart</button></a>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="text-6">
+      <p>Shop by</p>
+      <h1>Categories</h1>
+    </div>
+    <div class="box-t">
+      <img src="./Shop by Categories/1.webp" alt="">
+      <img src="./Shop by Categories/2.png" alt="">
+      <img src="./Shop by Categories/3.webp" alt="">
+      <img src="./Shop by Categories/4.webp" alt="">
+      <img src="./Shop by Categories/5.webp" alt="">
+      <img src="./Shop by Categories/6.webp" alt="">
+      <img src="./Shop by Categories/7.webp" alt="">
+      <img src="./Shop by Categories/8.webp" alt="">
+      <img src="./Shop by Categories/9.avif" alt="">
+      <img src="./Shop by Categories/10.png" alt="">
+      <img src="./Shop by Categories/11.webp" alt="">
+      <img src="./Shop by Categories/12.png" alt="">
+    </div>
+
+    <div class="text-7">
+      <h1>True Wireless Earbuds</h1>
+      <h1>Neckbands</h1>
+      <h1>Smart Watches</h1>
+      <h1>Wireless Headphones</h1>
+      <h1>Wireless Speakers</h1>
+      <h1>wired Earphones</h1>
+      <h1>wired headphones</h1>
+      <h1>Soundbars</h1>
+      <h1>party Speakers</h1>
+      <h1>Gaming Headphones</h1>
+      <h1>Chargers</h1>
+      <h1>Neckbands</h1>
+    </div>
+
+    <div class="box-x">
+      <div class="box-q">
+      <img src="./Shop by Categories/1.webp" alt="">
+      <h1>True Wireless Earbuds</h1>
+
+      <img src="./Shop by Categories/2.png" alt="">
+      <h2>Neckbands</h2>
+
+      <img src="./Shop by Categories/3.webp" alt="">
+      <h3>Smart Watches</h3>
+
+      <img src="./Shop by Categories/4.webp" alt="">
+      <h4>Wireless Headphones</h4>
+
+      <img src="./Shop by Categories/5.webp" alt="">
+      <h5>Wireless Speakers</h5>
+
+      <img src="./Shop by Categories/6.webp" alt="">
+      <h6>wired Earphones</h6>
+
+      <img src="./Shop by Categories/7.webp" alt="">
+      <h7>wired headphones</h7>
+
+      <img src="./Shop by Categories/8.webp" alt="">
+      <h8>Soundbars</h8>
+    </div>
+<div class="box-z">
+  <img src="./Shop by Categories/9.avif" alt="">
+      <h1>party Speakers</h1>
+      <img src="./Shop by Categories/10.png" alt="">
+      <h1>Gaming Headphones</h1>
+
+      <img src="./Shop by Categories/11.webp" alt="">
+      <h1>Chargers</h1>
+
+      <img src="./Shop by Categories/12.png" alt="">
+      <h1>Neckbands</h1>
+    </div>
+    </div>
+
+    <div class="text-8">
+      <p>New</p>
+      <h1>Launches</h1>
+    </div>
+    <div class="box-c">
+      <div class="box-2">
+        <img src="New Launches/10.webp" alt="">
+        <p><i class="fa-solid fa-star"></i>4.9</p>
+        <h1>Airpods 141 pro</h1>
+        <div class="text-5">
+          <h1>₹1,599</h1>
+          <p2><s>₹2990</s></p2>
+          <p3>47% off</p3>
+          <button><a href="#">Add To Cart</button></a>
+        </div>
+      </div>
+      <div class="box-2">
+        <img src="./New Launches/11.webp" alt="">
+        <p><i class="fa-solid fa-star"></i>Be first to review</p>
+        <h1>Airpods 125</h1>
+        <div class="text-5">
+          <h1>₹1099</h1>
+          <p2><s>₹4490</s></p2>
+          <p3>76% off</p3>
+          <button><a href="#">Add To Cart</button></a>
+        </div>
+      </div>
+      <div class="box-2">
+        <img src="./New Launches/12.webp" alt="">
+        <p><i class="fa-solid fa-star"></i>5.0</p>
+        <h1>Ultima Connect max</h1>
+        <div class="text-5">
+          <h1>₹2199</h1>
+          <p2><s>₹8999</s></p2>
+          <p3>76% off</p3>
+          <button><a href="#">Add To Cart</button></a>
+        </div>
+      </div>
+      <div class="box-2">
+        <img src="New Launches/13.webp" alt="">
+        <p><i class="fa-solid fa-star"></i>4.8</p>
+        <h1>Ultima Call max</h1>
+        <div class="text-5">
+          <h1>₹2499</h1>
+          <p2><s>₹8499</s></p2>
+          <p3>71% off</p3>
+          <button><a href="#">Add To Cart</button></a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="box-e">
+      <img src="./assets/Screenshot (48).png" alt="">
+    </div>
+
+      <div class="text-9">
+        <p>Shop Of</p>
+        <h2>LifeStyle<h2>
+      </div>
+      <div class="box-f">
+      <img src="./assets/background 1.png" alt="">
+    </div>
+
+    <div class="text-8">
+      <p>Best Of</p>
+      <h2>boAt</h2>
+    </div>
+    <div class="box-c">
+      <div class="box-2">
+        <img src="./assets/1.gif" alt="">
+        <p><i class="fa-solid fa-star"></i>4.8</p>
+        <h1>mmortal121</h1>
+        <div class="text-5">
+          <h1>₹1,699</h1>
+          <p2><s>₹3,490</s></p2>
+          <p3>51% off</p3>
+          <button><a href="#">Add To Cart</button></a>
+        </div>
+      </div>
+      <div class="box-2">
+        <img src="./assets/2.webp" alt="">
+        <p><i class="fa-solid fa-star"></i>5.0</p>
+        <h1>Airdopes113</h1>
+        <div class="text-5">
+          <h1>₹1,299</h1>
+          <p2><s>₹2,290</s></p2>
+          <p3>57% off</p3>
+          <button><a href="#">Add To Cart</button></a>
+        </div>
+      </div>
+      <div class="box-2">
+        <img src="./assets/3.webp" alt="">
+        <p><i class="fa-solid fa-star"></i>4.9</p>
+        <h1>Airdopes131PRO</h1>
+        <div class="text-5">
+          <h1>₹1,199</h1>
+          <p2><s>₹2,990</s></p2>
+          <p3>60% off</p3>
+          <button><a href="#">Add To Cart</button></a>
+        </div>
+      </div>
+      <div class="box-2">
+        <img src="./assets/4.webp" alt="">
+        <p><i class="fa-solid fa-star"></i>4.9</p>
+        <h1>Airdopes161</h1>
+        <div class="text-5">
+          <h1>₹1,099</h1>
+          <p2><s>₹2.490</s></p2>
+          <p3>56% off</p3>
+          <button><a href="#">Add To Cart</button></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-13">
+      <p>Join the</p>
+      <h1>Tribe</h1>
+    </div>
+    <div class="box-g">
+      <div class="box-j">
+        <video autoplay play loop muted src="./Join the Tribe/1.mp4"></video>
+        <img src="./Join the Tribe/7.webp" alt="">
+        <h1>Ultima Connect Max</h1>
+        <!-- <div class="text-12"> -->
+        <h2>₹2,199</h2>
+        <p><s>₹8,999</s></p>
+        <h3>75% off</h3>
+        <!-- </div> -->
+      </div>
+
+      <div class="box-j">
+        <video autoplay play loop muted src="./Join the Tribe/2.mp4"></video>
+        <img src="./Join the Tribe/8.webp" alt="">
+        <h4>Rockerz 255 Touch </h4>
+        <!-- <div class="text-12"> -->
+        <h2>₹1,499</h2>
+        <p><s>₹2990</s></p>
+        <h3>49% off</h3>
+        <!-- </div> -->
+      </div>
+
+      <div class="box-j">
+        <video autoplay play loop muted src="./Join the Tribe/3.mp4"></video>
+        <img src="./Join the Tribe/9.webp" alt="">
+        <h5>Lunar Call Pro</h5>
+        <!-- <div class="text-12"> -->
+        <h2>₹4,299</h2>
+        <p><s>₹6,990</s></p>
+        <h3>38% off</h3>
+        <!-- </div> -->
+      </div>
+
+      <div class="box-j">
+        <video autoplay play loop muted src="./Join the Tribe/4.mp4"></video>
+        <img src="./Join the Tribe/10.webp" alt="">
+        <h6>Wave Flex Connect</h6>
+        <!-- <div class="text-12"> -->
+        <h2>₹1,699</h2>
+        <p><s>₹7,990</s></p>
+        <h3>78% off</h3>
+        <!-- </div> -->
+      </div>
+
+      <div class="box-j">
+        <video autoplay play loop muted src="./Join the Tribe/5.mp4"></video>
+        <img src="./Join the Tribe/11.webp" alt="">
+        <h7>Rockerz</h7>
+        <!-- <div class="text-12"> -->
+        <h2>₹1,399</h2>
+        <p><s>₹3,999</s></p>
+        <h3>65% off</h3>
+        <!-- </div> -->
+      </div>
+
+      <div class="box-j">
+        <video autoplay play loop muted src="./Join the Tribe/6.mp4"></video>
+        <img src="./Join the Tribe/12.webp" alt="">
+        <h8>Wave Style Call</h8>
+        <!-- <div class="text-12"> -->
+        <h2>₹2,199</h2>
+        <p><s>₹7,990</s></p>
+        <h3>72% off</h3>
+        <!-- </div> -->
+      </div>
+    </div>
+
+
+    <div class="text-14">
+      <h1>Blogs</h1>
+    </div>
+    <div class="box-h">
+      <div class="box-i">
+        <img src="./assets/Aman_600x.webp" alt="">
+        <p>30 Nov, 2022</p>
+        <!-- <div class="text-12"> -->
+        <h2>Aman Gupta boAt (Shark Tank India 2) Age, Net worth, Email ID,....</h2>
+        <h3>We know you keep searching for things on the internet — after all, what better source is there in....</h3>
+        <button><a href="#">Read More <i class="fa-solid fa-circle-arrow-right"></i></a></button>
+        <!-- </div> -->
+      </div>
+
+      <div class="box-k">
+        <img src="./assets/Main-banner_600x.webp" alt="">
+        <p>30 Nov, 2022</p>
+        <!-- <div class="text-12"> -->
+        <h2>The Ultimate Smartwatch Guide - Get The World On Your Wrist
+        </h2>
+        <h3>With boAt smart watches, carry the world on your wrist and make life easier for you with</h3>
+        <button><a href="#">Read More <i class="fa-solid fa-circle-arrow-right"></i></a></button>
+        <!-- </div> -->
+      </div>
+      <div class="box-l">
+        <img src="./assets/dc-Blog_600x.webp" alt="">
+        <p>30 Nov, 2022</p>
+        <!-- <div class="text-12"> -->
+        <h2>Iconic meets Iconic: boAt & DC Comics Join Hands to Get....</h2>
+        <h3>DC Official Merchandise from boAt | DC Comics. Best audio products in Superman,...</h3>
+        <button><a href="#">Read More <i class="fa-solid fa-circle-arrow-right"></i></a></button>
+        <!-- </div> -->
+      </div>
+      <div class="box-m">
+        <img src="./assets/blog_banner_street_fashion_1_600x.webp" alt="">
+        <p>30 Nov, 2022</p>
+        <!-- <div class="text-12"> -->
+        <h2>The Sidewalk Runway</h2>
+        <h3>No matter what your style is, own it each day unapologetically! Here is a read for you on...</h3>
+        <button><a href="#">Read More <i class="fa-solid fa-circle-arrow-right"></i></a></button>
+        <!-- </div> -->
+      </div>
+    </div>
+
+    <div class="box-y">
+      <img src="./assets/final-loader.gif" alt="">
+    </div>
+
+
+    <div class="box-n">
+      <div class="box-o">
+        <img src="./assets/boat-logo-300x300.png" alt="">
+        <h1>Subscribe to our email alerts!</h1>
+        <div class="search-2">
+          <p1><input type="text" placeholder="Enter your email Address"><i class="fa-solid fa-circle-chevron-right"></i>
+          </p1>
+        </div>
+      </div>
+
+
+      <div class="box-p">
+        <div class="text-15">
+          <h1>Shop</h1>
+          <a href="#">True Wireless Earbuds</a>
+          <a href="#">wired Headphones</a>
+          <a href="#">Home Audio</a>
+          <a href="#">Smart Watches</a>
+          <a href="#">Misfit</a>
+          <a href="#">Earn₹100</a>
+        </div>
+
+        <div class="text-16">
+          <a href="#">Wiredless Headphones</a>
+          <a href="#">Wireless Speakers</a>
+          <a href="#">Mobile Accessories</a>
+          <a href="#">TREbel</a>
+          <a href="#">Gift Card</a>
+        </div>
+
+        <div class="text-17">
+          <h1>Help</h1>
+          <a href="#">Track Your Order</a>
+          <a href="#">Warranty & Support</a>
+          <a href="#">Return Policy</a>
+          <a href="#">Service Centers</a>
+          <a href="#">Bulk Orders</a>
+          <a href="#">FAQs</a>
+          <a href="#">Why Buy Direct</a>
+        </div>
+
+        <div class="text-18">
+          <h1>Company</h1>
+          <a href="#">About boAt</a>
+          <a href="#">News</a>
+          <a href="#">Read Our Blog</a>
+          <a href="#">Carees</a>
+          <a href="#">Security</a>
+          <a href="#">Investor Relation</a>
+          <a href="#">Social Responsibilty</a>
+          <a href="#">Warranty Policy</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="box-s">
+      <div class="text-19">
+        <h1>True Wireless Earbuds</h1>
+        <h2>Shop by Features</h2>
+        <a href="#">Noise Cancellation Earbuds</a>
+        <a href="#">Gaming Earbuds </a>
+        <a href="#">Large Playback Earbuds </a>
+
+        <h3>Shop by Price </h3>
+        <a href="#">Earbuds Under 1000</a>
+        <a href="#">Earbuds Under 2000</a>
+        <a href="#">Earbuds Under 3000</a>
+        <a href="#">Earbuds Under 4000</a>
+        <a href="#">Earbuds Under 5000</a>
+        <a href="#">Earbuds Under 6000</a>
+
+
+        <h4>Wireless Earphones</h4>
+        <h5>Shop by Features</h5>
+        <a href="#">Noise Cancellation Earphone</a>
+        <a href="#">Long Playback Earphone</a>
+        <a href="#">Clear Calling Earphone</a>
+
+        <h6>Shop by Price</h6>
+        <a href="#">Neckbands Under 1000</a>
+        <a href="#">Neckbands Under 2000</a>
+        <a href="#">Neckbands Under 3000</a>
+
+        <h7>Wired Earphones</h7>
+        <h8>Shop by Features</h8>
+        <a href="#">wired Earphone With Mic</a>
+
+        <h10>Shop by Price</h10>
+        <a href="#">Earphone Under 500</a>
+        <a href="#">Earphone under 1000</a>
+
+        <h11>Wireless Headphones</h11>
+        <h12>Shop by Features</h12>
+        <a href="#">Noise cancelling Headphones</a>
+        <a href="#">Wireless Gaming headphones</a>
+        <a href="#">Long Playback headphones</a>
+
+        <!-- <h13>Shop by Price</h14>
+        <a href="#">Wireless Headphones Under 1000</a>
+        <a href="#">Wireless Headphones Under 2000</a>
+        <a href="#">Wireless Headphones Under 3000</a>
+        <a href="#">Wireless Headphones Under 4000</a>
+        <a href="#">Wireless Headphones Above 1000</a> -->
+      </div>
+
+      <div class="text-20">
+        <h1>Wired Headphones</h1>
+        <h2>Shop by Features</h2>
+        <a href="#">wired Headphones With mic</a>
+        <a href="#">Headphones With Mic for PC</a>
+        
+        <h3>Shop by Price </h3>
+        <a href="#">wired Headphones Under 1000</a>
+        <a href="#">wired Headphones Under 2000</a>
+        <a href="#">wired Headphones Under 3000</a>
+       
+        <h4>Gaming Headphones</h4>
+        <h5>Shop by Features</h5>
+        <a href="#">Gaming Haedphones With Mic</a>
+        <a href="#">Low Latency Headphones</a>
+        <a href="#">RGB Light Headphone</a>
+        <a href="#">Headphone for PC Gaming</a>
+
+        <h7>Wireless Speakers</h7>
+        <h8>Shop by Features</h8>
+        <a href="#">portable Speakers</a>
+        <a href="#">Long Playback Speakers</a>
+        <a href="#">Waterproof Blutooth Speakers</a>
+        <a href="#">Party Speaker With RGB Light</a>
+        <a href="#">Speaker With Karaoke Mic</a>
+
+        <h10>Shop by Price</h10>
+        <a href="#">Bluetooth speakers Under 1000</a>
+        <a href="#">Bluetooth speakers Under 2000</a>
+        <a href="#">Bluetooth speakers Under 3000</a>
+        <a href="#">Bluetooth speakers Under 5000</a>
+        <a href="#">Bluetooth speakers Under 8000</a>
+
+
+        <h11>Soundbars</h11>
+        <h12>Shop by Features</h12>
+        <a href="#">Dolby Soundbars</a>
+        <a href="#">Soundbar With Wireless Subwoofer</a>
+        <a href="#">Soundbar With Wired Subwoofer</a>
+        <a href="#">Alexa Enabled Soundbar</a>
+        <a href="#">Bluetooth Soundbar</a>
+
+
+        <!-- <h13>Shop by Price</h14>
+        <a href="#">Soundbars Under 10000</a>
+        <a href="#">Soundbars Under 20000</a>
+        <a href="#">Soundbars Under 3000</a>
+        <a href="#">Soundbars Under 5000</a>
+        <a href="#">Soundbars Above 20000</a> -->
+      </div>
+
+      <div class="text-21">
+        <h1>Smart Watches</h1>
+        <h2>Shop by Features</h2>
+        <a href="#">Blutooth Calling SmartWatches</a>
+        <a href="#">Amoled Display SmartWatches</a>
+        <a href="#">Round Dial SmartWatches</a>
+        <a href="#">Fitness Tracker SmartWatches</a>
+        <a href="#">Sports Tracker SmartWatches</a>
+        <a href="#">Big Display SmartWatches</a>
+        
+
+        <h3>Shop by Price </h3>
+        <a href="#">Smartwatch Under 1000</a>
+        <a href="#">Smartwatch Under 2000</a>
+        <a href="#">Smartwatch Under 3000</a>
+        <a href="#">Smartwatch Under 4000</a>
+        <a href="#">Smartwatch Under 5000</a>
+        <a href="#">Smartwatch Above 5000</a>
+
+        <h4>Trimmers</h4>
+        <h5>Shop by Features</h5>
+        <a href="#">Grooming Kit For men</a>
+        <a href="#">Beard style</a>
+        <a href="#">Trimmer for Men</a>
+
+        <h6>Shop by Price</h6>
+        <a href="#">Trimmer Under 1000</a>
+        <a href="#">Trimmer Under 2000</a>
+
+        <h7>Limited Edition</h7>
+        <h8>Shop by Features</h8>
+        <a href="#">Limited Edition Speakers</a>
+        <a href="#">Limited Edition Earbuds</a>
+        <a href="#">Limited Edition Smartwatch</a>
+        <a href="#">Limited Edition Earphone</a>
+        <a href="#">Limited Edition Headphones</a>
+
+        <h11>Car Accessories</h11>
+        <h12>Shop by Features</h12>
+        <a href="#">Car Charger</a>
+        <a href="#">Aux Cable for Car</a>
+    
+        <!-- <h13>Shop by Price</h14>
+        <a href="#">Car Charger Under 500</a>
+        <a href="#">Car Charger Above 500</a> -->
+      </div>
+
+      <div class="text-22">
+        <h1>Trebel Range</h1>
+        <h2>Shop by Features</h2>
+        <a href="#">SmartWatch for Women</a>
+        <a href="#">Earbuds for Women</a>
+        <a href="#">Neckbands for Women</a>
+        <a href="#">Earphone for Women</a>
+        <a href="#">Headphone for Women</a>
+
+        <h4>Powerbanks</h4>
+        <h5>Shop by Features</h5>
+        <a href="#">Power Bank 10000mah</a>
+        <a href="#">power bank 20000mah</a>
+        <a href="#">Mobile Power Bank</a>
+        <a href="#">Fast Charging Power bank</a>
+        <a href="#">Power Bank for iphone</a>
+
+        <h6>Shop by Price</h6>
+        <a href="#">Power Bank Under 1000</a>
+        <a href="#">Power Bank Under 1500</a>
+        <a href="#">Power Bank Under 2000</a>
+
+        <h7>Chargers</h7>
+        <h8>Shop by Features</h8>
+        <a href="#">Wireless charger</a>
+        <a href="#">Type charger</a>
+        <a href="#">fast charger</a>
+        <a href="#">USB charger</a>
+        <a href="#">Type C Adapter</a>
+      
+        <h11>Cables</h11>
+        <h12>Shop by Features</h12>
+        <a href="#">C Type Cable</a>
+        <a href="#">Micro USB Cable</a>
+        <a href="#">Smart Watch Charging Cable</a>
+        <a href="#">USB C to Micro USB</a>
+        <a href="#">USB C to C Cable</a>
+        <a href="#">Lightning Cable</a>
+
+        
+    
+        <!-- <h13>Shop by Price</h14> 
+        <a href="#">Car Charger Under 500</a>
+        <a href="#">Car Charger Above 500</a> -->
+      </div>
+    </div>
+
+    <div class="box-u">
+      <div class="text-23">
+        <h1>let's get Social</h1>
+        <ul>
+        <li><i class="fa-brands fa-facebook-f"></i></li>
+        <li><i class="fa-brands fa-twitter"></i></li>
+        <li><i class="fa-brands fa-instagram"></i></li>
+        <li><i class="fa-brands fa-youtube"></i></li>
+        <li><i class="fa-brands fa-linkedin"></i></li>
+      </ul>
+      </div>
+      <a href="#">Privacy Policy.Terms & Condition </a>
+      <p>© 2023 Imagine Marketing Limited. All Rights Reserved.
+      </p>
+      <h2>For queries contact us: Manager, Imagine Marketing Limited Unit no. 204 & 205, 2nd floor, D-wing & E-wing,
+      </h2>
+      <h3>Corporate Avenue, Andheri Ghatkopar Link Road, Mumbai, Maharashtra-400093, India</h3>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/606ce42e73.js" crossorigin="anonymous"></script>
+
+    <script>
+      let slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) { slideIndex = 1 }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+    </script>
+</body>
+
+</html>
